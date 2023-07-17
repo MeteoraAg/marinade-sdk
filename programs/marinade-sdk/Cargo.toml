@@ -1,6 +1,7 @@
 [package]
-name = "marinade-sdk"
+name = "meteora-marinade-sdk"
 version = "0.1.0"
+authors = ["Marinade finance"]
 description = "Created with Anchor"
 edition = "2021"
 
