@@ -1,6 +1,6 @@
 [package]
 name = "meteora-marinade-sdk"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Marinade finance"]
 description = "Created with Anchor"
 license = "Apache-2.0"
@@ -21,6 +21,6 @@ default = ["cpi"]
 overflow-checks = true
 
 [dependencies]
-solana-program = "1.9.17"
+solana-program = "1.16.13"
 spl-token = "3.1.1"
-borsh = "0.9.3"
+borsh = ">=0.9, <0.11"
